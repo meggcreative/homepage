@@ -8,7 +8,7 @@
 * [ Footer](#footer)
 * [Technologies](#technologies)
 
-![Homepage](image/pobrane.gif)
+![Homepage](images/pobrane.gif)
 
 ## Site Navigation
 
