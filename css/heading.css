@@ -1,0 +1,19 @@
+.heading {
+    max-width: 1000px;
+    background-color: #FFFFFF;
+    position: relative;
+    box-shadow: 30px -20px 35px 1px #82BA87, -30px 20px 43px 0px #74A57A, inset -10px 0px 134px -22px #6ED88E;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.heading__image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border: 20px groove #95d3a1;
+    margin-bottom: 20px;
+    width: 300;
+    height: 300;
+}

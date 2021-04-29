@@ -1,0 +1,10 @@
+.section {
+    text-align: center;
+    padding: 10 px;
+}
+
+.section__poem--special {
+    color: grey;
+    height: 0;
+    overflow: hidden;
+}

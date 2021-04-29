@@ -1,0 +1,20 @@
+.footer {
+    text-align: center;
+    padding: 30px;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.footer__link {
+    color: rgb(32, 102, 64);
+}
+
+.footer__link:hover {
+    color: #324d32;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.footer__link:active {
+    color: darkgreen;
+}

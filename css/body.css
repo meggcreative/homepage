@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+ ::after,
+ ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(204 243 213);
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 1.5;
+}
+
+.body--special {
+    background-color: #83c297
+}
+
+.body__button--special {
+    text-align: center;
+    background-color: rgb(119, 103, 103);
+    border: 10px;
+    border-color: black;
+    margin-left: 20px;
+    padding: 10px;
+}

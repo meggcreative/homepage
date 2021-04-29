@@ -1,0 +1,31 @@
+.navigation {
+    background-color: #95d3a1;
+    padding: 10px;
+    width: 100%;
+    border-style: ridge;
+    border-width: 3px;
+    border-color: #4d8367;
+    font-family: 'PT Sans', sans-serif;
+    font-size: medium;
+    font-weight: 800;
+    border-radius: 32px;
+}
+
+.navigation__listItem {
+    display: inline;
+    font-size: 20px;
+    list-style: none;
+    min-width: 900px;
+    padding: 20px;
+}
+
+.navigation__unorderedList {
+    list-style-type: none;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.navigation__menuList {
+    text-decoration: none;
+    color: black;
+}
