@@ -10,6 +10,7 @@
 
 ![Homepage](images/pobrane.gif)
 
+
 ## Site Navigation
 
 Site Navigation shows exact sections on the site, we can You it if we want to skip part of the page to go to this one which intrests us.
@@ -36,3 +37,5 @@ The site was created to exercise basics tags, lear how to use BEM conventions an
 - CSS/ BEM convenction 
 - JavaScript
 - ES6 features
+
+[Try by Yourself how it works: click here](https://meggcreative.github.io/homepage/)
