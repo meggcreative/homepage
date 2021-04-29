@@ -8,6 +8,8 @@
 * [ Footer](#footer)
 * [Technologies](#technologies)
 
+![Homepage](image/pobrane.gif)
+
 ## Site Navigation
 
 Site Navigation shows exact sections on the site, we can You it if we want to skip part of the page to go to this one which intrests us.
