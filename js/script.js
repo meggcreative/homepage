@@ -11,9 +11,10 @@
         body.classList.toggle("body--special")
     }
 
+    const button = document.querySelector(".js-button");
 
     const makePoemInvisible = () => {
-        const button = document.querySelector(".js-button");
+
         const poem = document.querySelector(".section__poem");
         poem.classList.toggle("section__poem--special");
 
