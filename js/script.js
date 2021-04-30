@@ -3,22 +3,25 @@
         console.log("Witam, witam i o zdrowie pytam !!!");
     }
 
-    let changeColorButton = document.querySelector(".js-changeColorButton");
-    let button = document.querySelector(".js-button");
-    let poem = document.querySelector(".section__poem");
+
 
     const changeBackgroundColor = () => {
-        let body = document.querySelector(".body");
+
+        const body = document.querySelector(".body");
         body.classList.toggle("body--special")
     }
 
 
     const makePoemInvisible = () => {
+        const button = document.querySelector(".js-button");
+        const poem = document.querySelector(".section__poem");
         poem.classList.toggle("section__poem--special");
+
         button.innerText = button.innerText === "schowaj" ? "pokaz" : "schowaj";
     }
 
     const init = () => {
+        const changeColorButton = document.querySelector(".js-changeColorButton");
         welcome();
         button.addEventListener("click", makePoemInvisible);
         changeColorButton.addEventListener("click", changeBackgroundColor);
