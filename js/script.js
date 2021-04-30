@@ -1,16 +1,30 @@
-console.log("Witam, witam i o zdrowie pytam !!!");
+{
+    const welcome = () => {
+        console.log("Witam, witam i o zdrowie pytam !!!");
+    }
 
-let button = document.querySelector(".button");
-let poem = document.querySelector(".section__poem");
-let buttonChangeColor = document.querySelector(".body__button--special");
-let body = document.querySelector(".body")
+    let changeColorButton = document.querySelector(".js-changeColorButton");
+    let button = document.querySelector(".js-button");
+    let poem = document.querySelector(".section__poem");
 
-button.addEventListener("click", () => {
-    poem.classList.toggle("section__poem--special");
+    const changeBackgroundColor = () => {
+        let body = document.querySelector(".body");
+        body.classList.toggle("body--special")
+    }
 
-    button.innerText === "schowaj" ? button.innerText = "pokaż" : button.innerText = "schowaj"
-})
 
-buttonChangeColor.addEventListener("click", () => {
-    body.classList.toggle("body--special")
-})
+    const makePoemInvisible = () => {
+        poem.classList.toggle("section__poem--special");
+        button.innerText = button.innerText === "schowaj" ? "pokaz" : "schowaj";
+    }
+
+    const init = () => {
+        welcome();
+        button.addEventListener("click", makePoemInvisible);
+        changeColorButton.addEventListener("click", changeBackgroundColor);
+
+    }
+
+
+    init();
+}

@@ -5,7 +5,7 @@
     margin: 20px 0;
 }
 
-.table__header {
+.table__cell--header {
     border: 1px solid #ccc;
     background-color: #18663d;
     color: #92c398;

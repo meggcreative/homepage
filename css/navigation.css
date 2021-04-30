@@ -25,7 +25,7 @@
     margin: 30px auto;
 }
 
-.navigation__menuList {
+.navigation__link {
     text-decoration: none;
     color: black;
 }

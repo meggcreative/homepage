@@ -32,11 +32,11 @@
     </p>
     <nav class="navigation">
         <ul class="navigation__unorderedList">
-            <li class="navigation__listItem"><a class="navigation__menuList" href="#o-mnie">O mnie</a></li>
-            <li class="navigation__listItem"><a class="navigation__menuList" href="#praca">Czym się zajmuję</a></li>
-            <li class="navigation__listItem"> <a class="navigation__menuList" href="#wyksztalcenie"> Wykształcenie</a>
+            <li class="navigation__listItem"><a class="navigation__link" href="#o-mnie">O mnie</a></li>
+            <li class="navigation__listItem"><a class="navigation__link" href="#praca">Czym się zajmuję</a></li>
+            <li class="navigation__listItem"> <a class="navigation__link" href="#wyksztalcenie"> Wykształcenie</a>
             </li>
-            <li class="navigation__listItem"><a class="navigation__menuList" href="#zainteresowania">Zainteresowania</a>
+            <li class="navigation__listItem"><a class="navigation__link" href="#zainteresowania">Zainteresowania</a>
             </li>
         </ul>
     </nav>
@@ -51,16 +51,16 @@
 
             <div>
                 <p>
-                    <button class="button">schowaj</button>
+                    <button class="js-button">schowaj</button>
                 </p>
             </div>
 
         </section>
 
         <section>
-            <div class="heading">
-                <h2 id="o-mnie"> Kilka słów o mnie </h2>
-            </div>
+
+            <h2 class="heading" id="o-mnie"> Kilka słów o mnie </h2>
+
 
             <p>
                 <strong>Upartość i kreatywność </strong> to dwie najważniejsze z wielu cech mojego charakteru które się do tego przyczyniły. Determinacja i pomysłowość, chęć ciągłego rozwoju, ale również wspaniali ludzie, którzy mnie otaczają.
@@ -68,9 +68,9 @@
             <p>Pozdrawiam z tego miejsca Izuńkę i Nikitę !!!
 
             </p>
-            <div class="heading">
-                <h2 id="praca">Praca- czym się zajmuję</h2>
-            </div>
+
+            <h2 class="heading" id="praca">Praca- czym się zajmuję</h2>
+
 
             <p>W swojej ponad 31 letniej karierze nie było pracy, której się bałam. Rozdawałam ulotki, sprzątałam, zbierałam truskawki, byłam hostessą, kelnerką etc. W końcu moja pierwsza poważna praca biurowa to stanowisko księgowej w przedsiębiorstwie
                 moich rodziców. Ze stopnia finansów zaczęłam się wdrażać w kolejne poziomy i od serwisanta aut ciężarowych ( i nie mam na myśli tutaj mechanicznej obsługi, a raczej kwestie
@@ -78,9 +78,9 @@
                 godzinach pracy zajmuję się również salonem fryzjersko-kosmetycznym gdzie jestem odpowiedzialna za finanse, zamówienia, inwentaryzacje oraz zarządzanie kadrą pracowniczą.
             </p>
 
-            <div class="heading">
-                <h2 id="wyksztalcenie">Wykształcenie</h2>
-            </div>
+
+            <h2 class="heading" id="wyksztalcenie">Wykształcenie</h2>
+
             <p>Ukończyłam Uniwersytet Gdański ze stopniem licencjata na kierunku <b>ekonomii</b>. Następnie wyprowadziłam się na 2 lata do Warszawy, gdzie udało mi się uzyskać stopień magistra na kierunku <b>finanse,
                     rachunkowość
                     i ubezpieczenia</b> na Uniwersytecie Warszawskim.
@@ -93,69 +93,69 @@
                 <i>Do not waste Your time! :)</i>
             </p>
 
-            <div class="heading">
-                <h2 id="zainteresowania">Zainteresowania </h2>
-            </div>
+
+            <h2 class="heading" id="zainteresowania">Zainteresowania </h2>
+
             <p><b>To nie programowanie</b> jest moim zaiteresowaniem ani komputery czy inne tego typu zajawki. Może to się wydawać dziwne, ale wręcz odwrotnie. Wolałam wyjść do ludzi, uprawiać sport niż spędzać czas przed jakimkolwiek ekranem, czy to komputera
                 czy telewizora.Od kilku ładnych lat trenuje na siłowni. Zaczęło się niewinnie od zajęć grupowych 1-2 razy w tygodniu. Skończyło na sumiennych 6-razach i nie na zajęciach grupowych, a samodzielnych treningach z trenerem, oraz zajęciach
                 typu <i>cross.</i>( Tak, tak- duże ciężary, dużo powtórzeń i dużo potu!) Dodatkowo raz w tygodniu zazwyczaj w niedziele staram się biegać, uwielbiam o poranku przy pięknej pogodzie z niesamowitą nutą w uszach śmigać po lesie, człowiek
                 od razu czuje się lepiej! Poniżej tabela jak wygląda mój tydzień treningowy :)
             </p>
             <table class="table">
-                <caption class="tabel__caption"> Mój przykładowy tydzień treningowy</caption>
+                <caption class="table__caption"> Mój przykładowy tydzień treningowy</caption>
 
                 <tr class="table__row">
-                    <th class="table__header" scope="row">Dzień tygodnia</th>
-                    <th class="table__header" scope="col">Godzina</th>
-                    <th class="table__header" scope="col">Trening personalny</th>
-                    <th class="table__header" scope="col">Trening inny</th>
-                    <th class="table__header" scope="col">Czas trwania</th>
+                    <th class="table__cell--header" scope="row">Dzień tygodnia</th>
+                    <th class="table__cell--header" scope="col">Godzina</th>
+                    <th class="table__cell--header" scope="col">Trening personalny</th>
+                    <th class="table__cell--header" scope="col">Trening inny</th>
+                    <th class="table__cell--header" scope="col">Czas trwania</th>
                 </tr>
 
                 <tr class="table__row">
-                    <th class="table__header" scope="row">Poniedziałek</th>
+                    <th class="table__cell--header" scope="row">Poniedziałek</th>
                     <td class="table__cell">6:00</td>
                     <td class="table__cell">tak</td>
                     <td class="table__cell">-</td>
                     <td class="table__cell">1,5 H</td>
                 </tr>
                 <tr class="table__row">
-                    <th class="table__header" scope="row">Wtorek</th>
+                    <th class="table__cell--header" scope="row">Wtorek</th>
                     <td class="table__cell">19:00</td>
                     <td class="table__cell">nie</td>
                     <td class="table__cell">cross</td>
                     <td class="table__cell">1 H</td>
                 </tr>
                 <tr class="table__row">
-                    <th class="table__header" scope="row">Środa</th>
+                    <th class="table__cell--header" scope="row">Środa</th>
                     <td class="table__cell">6:00</td>
                     <td class="table__cell">tak</td>
                     <td class="table__cell">-</td>
                     <td class="table__cell">1,5 H</td>
                 </tr>
                 <tr class="table__row">
-                    <th class="table__header" scope="row">Czwartek</th>
+                    <th class="table__cell--header" scope="row">Czwartek</th>
                     <td class="table__cell">19:00</td>
                     <td class="table__cell">nie</td>
                     <td class="table__cell">cross</td>
                     <td class="table__cell">1 H</td>
                 </tr>
                 <tr class="table__row">
-                    <th class="table__header" scope="row">Piątek</th>
+                    <th class="table__cell--header" scope="row">Piątek</th>
                     <td class="table__cell">6:00</td>
                     <td class="table__cell">tak</td>
                     <td class="table__cell">-</td>
                     <td class="table__cell">1,5 H</td>
                 </tr>
                 <tr class="table__row">
-                    <th class="table__header" scope="row">Sobota</th>
+                    <th class="table__cell--header" scope="row">Sobota</th>
                     <td class="table__cell">7:00-8:00</td>
                     <td class="table__cell">tak</td>
                     <td class="table__cell">-</td>
                     <td class="table__cell">1,5-2 H</td>
                 </tr>
                 <tr class="table__row">
-                    <th class="table__header" scope="row">Niedziela</th>
+                    <th class="table__cell--header" scope="row">Niedziela</th>
                     <td class="table__cell">8:00-9:00</td>
                     <td class="table__cell">nie</td>
                     <td class="table__cell">bieganie</td>
@@ -163,12 +163,12 @@
                 </tr>
 
             </table>
-            <p> <button class="body__button--special"> zmień kolor tła </button>
+            <p> <button class="js-changeColorButton"> zmień kolor tła </button>
             </p>
 
-            <div class="heading">
-                <h2>Plany na przyszłość?</h2>
-            </div>
+
+            <h2 class="heading">Plany na przyszłość?</h2>
+
             <p> <i> Who knows?</i> Cały czas myślę :) Cały czas próbuję nowych rzeczy, obecnie to właśnie tym (nauką programowania) się zajmuję. Zobaczymy co dobrego mi to przyniesie. Koniecznie trzymajcie kciuki !!!
             </p>
 
